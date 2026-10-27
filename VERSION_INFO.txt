@@ -1,0 +1,13 @@
+CAD Cost Analyzer 2D v3.3 — Exact Contact Pressure / Hybrid Platz sparen
+2026-10-23
+- Up to 50 part instances; RU/DE/EN UI and HTML editor remain.
+- v3.3 continuous contact-pressure translations for individuals and rigid clusters.
+- Exact Shapely polygon/hole/gap validity and final independent verification.
+- Bounded cooperative search; never discards a better, verified incumbent.
+- Historical source-verified ZIP (+ optional manual JSON) seed import added.
+- DXF R2010 export (editable closed polylines) and SVG previews.
+- Benchmark: 16 supplied shapes with a prior *manual* seed: 6,859,892 -> 6,749,808 mm2
+  in a 24-second search budget (plus reporting overhead). This is NOT an autonomous
+  from-scratch win and NOT a guaranteed global minimum.
+- Not CAM/G-code, not a machine-ready cutting plan.
+- Depends on Shapely/GEOS, ezdxf, pandas, streamlit.

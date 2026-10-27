@@ -1,0 +1,16 @@
+{
+  "manual_mm2": 6859892.0,
+  "automatic_from_manual_mm2": 6749808.0,
+  "new_width": 4476,
+  "new_height": 1508,
+  "gap_mm": 3,
+  "margin_mm": 5,
+  "parts": 16,
+  "benchmark_seed": "verified manual prior layout",
+  "meta": {
+    "requested_seconds": 24.0,
+    "elapsed_seconds": 27.45,
+    "timed_out": false,
+    "partial": false
+  }
+}
